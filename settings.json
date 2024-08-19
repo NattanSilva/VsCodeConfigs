@@ -187,5 +187,14 @@
   "remote.autoForwardPortsSource": "hybrid",
   "prettier.jsxSingleQuote": true,
   "prettier.semi": false,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "terminal.integrated.env.windows": {},
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["-t", "py37"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  }
 }
